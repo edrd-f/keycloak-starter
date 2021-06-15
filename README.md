@@ -22,11 +22,11 @@ docker-compose restart keycloak
   * Create a realm with name `application` (**must** be lowercase)
     * After creating, go to the "Login" tab and change "Require SSL" to `none`
   * Within the realm, create a client configuration with the following attributes:
-    * Client ID: frontend
+    * Client ID: `frontend`
     * Client Protocol: openid-connect
-    * Root URL: http://localhost:9090
+    * Root URL: `http://localhost:9090`
   * Create a user
 
 5. Start frontend app with `python3 -m http.server 9090`
 
-7. Navigate to http://localhost:9090 and check the authentication works
+6. Navigate to http://localhost:9090 and check the authentication works
