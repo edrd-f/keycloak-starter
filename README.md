@@ -1,4 +1,4 @@
-# Development
+# Steps
 
 1. Spin up all services:
 
